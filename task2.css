@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    padding: 30px;
+      font-family: 'popins',sans-serif;
+}
+#cars{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+.box img{
+    width: 220px;
+    height: 220px;
+}
+
+.box{
+    
+    padding: 20px;
+}
+button{
+    padding: 10px;
+    border: none;
+    background:black;
+    color: bisque;
+    border-radius: 4px;
+}
+
+button :hover{
+    background-color: bisque;
+    color: black;
+    border: 1px black solid;
+}
